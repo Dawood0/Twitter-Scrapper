@@ -1,0 +1,108 @@
+1638091582137	geckodriver	INFO	Listening on 127.0.0.1:55793
+1638091585221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55794" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileFB6aHf"
+1638091586028	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileFB6aHf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55794/devtools/browser/c07c7514-e0a9-4765-9e7f-e8ced7ad5931
+1638091588364	Marionette	INFO	Listening on port 55799
+1638091588496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638091605130	Marionette	INFO	Stopped listening on port 55799
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638091606675	geckodriver	INFO	Listening on 127.0.0.1:55871
+1638091609773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55872" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofilegCXb1n"
+1638091610619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofilegCXb1n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55872/devtools/browser/fb2200d6-5a69-4f53-95d2-c565818a29c0
+1638091612805	Marionette	INFO	Listening on port 55877
+1638091612960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IDpL2rJiZrNY3rYqo4eIGDY6phXtx-GzYRENHMIWWlE.js line 1 > eval line 3783 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/thetradedeskv275874568748/moatad.js#moatClientLevel1=5ivcbsa&moatClientLevel2=kd56eil&moatClientLevel3=6its16v&moatClientSlicer1=temp-mail.org&zMoatImpressionId=1f7c97cf-59fa-4d12-9505-4d8a3a2fbfac&zMoatCachebuster=789401&zMoatPartnerID=26rb9ab&zMoatViewType=0&zMoatCreative=thlsq4lu&zMoatDealID=&zMoatSupplyVendor=rubicon&zMoatSite=temp-mail.org&zMoatPublisherID=18812&moatClientLevel4=https%3A%2F%2Finsight.adsrvr.org%2Fenduser%2Fpie%2F%3Fpie%3D20%26vet%3DVIEWABILITY_EVENT_TYPE%26rtb%3DdD0xJmlpZD0xZjdjOTdjZi01OWZhLTRkMTItOTUwNS00ZDhhM2EyZmJmYWMmY3JpZD10aGxzcTRsdSZ3cD0ke0FVQ1RJT05fUFJJQ0U6QkZ9JmFpZD0xJndwYz1VU0Qmc2ZlPTEzZGFjYjhhJnB1aWQ9JnBpZD0yNnJiOWFiJmFnPTZpdHMxNnYmYWR2PTVpdmNic2EmYnA9MSZjZj0yNjk0Njk1JmZxPTAmdGRfcz10ZW1wLW1haWwub3JnJnJjYXRzPSZtY2F0PSZtc3RlPXRlbXAtbWFpbC5vcmcmbWZsZD0yJm1zc2k9Tm9uZSZtZnNpPXB2eW53bHdscnkmdWhvdz0xMSZhZ3NhPSZyZ3o9JnN2YnR0ZD0xJmR0PVBDJm9zZj1XaW5kb3dzJm9zPVdpbmRvd3MxMCZicj1GaXJlZm94JnJsYW5ncz1lbiZtbGFuZz0mc3ZwaWQ9MTg4MTImZGlkPSZyY3h0PU90aGVyJmxhdD0zMS4yMTYyMDAmbG9uPTI5Ljk1MjkwMCZ0bXBjPSZkYWlkPSZ2cD0wJm9zaT0mb3N2PSZiZmZpPTQxJm1rPU1vemlsbGEmbWRsPUZpcmVmb3glMjAtJTIwV2luZG93cyZjPUNnVkZaM2x3ZEJJS1FXeGxlR0Z1WkhKcFlSb0FJZ3BCYkdWNFlXNWtjbWxoT0FGUUFZQUJBSWdCQVpBQkFBLi4mZHVyPUNsQUtOR05vWVhKblpTMWhiR3hQWm1ac2FXNWxRWFIwY21saWRYUnBiMjVKYm1abGNuSmxaRUp5WVc1a1NXMXdZV04wVm1sa1pXOGlHQWlyX19fX19fX19fXzhCRWd0cFlta3RNM0JrTFdGMGRBb3dDZ3hqYUdGeVoyVXRZV3hzTFRFaUlBal9fX19fX19fX19fOEJFaE4wZEdSZlpHRjBZVjlsZUdOc2RYTnBiMjV6Q2o0S0lXTm9ZWEpuWlMxdFlYaEViM1ZpYkdWV1pYSnBabmxDY21GdVpGTmhabVYwZVNJWkNQSF9fX19fX19fX193RVNER1J2ZFdKc1pYWmxjbWxtZVFvM0NoMWphR0Z5WjJVdGJXRjRSM0poY0dWemFHOTBRMkYwWldkdmNtbGxjeUlXQ0t6X19fX19fX19fX3dFU0NXZHlZWEJsYzJodmRBcElDaUZqYUdGeVoyVXRZV3hzVFc5aGRGWnBaWGRoWW1sc2FYUjVWSEpoWTJ0cGJtY2lJd2lsX19fX19fX19fXzhCRWc1dGIyRjBMWEpsY0c5eWRHbHVaeW9HQ0tDTkJoZ00mY3JyZWxyPSZpcGw9MTc3NDA4NiZmcGE9Nzk4JnBjbT0zJnZjPTImc2FpZD03NmUzMWIwYzVhYzZjZDVjYTcxOTRiZmExMTkxZjE0NTAyZTBmNTZhJmljdD1Vbmtub3duJmF1Y3Q9MSZpbT0xJm1jPTkxNzFjYmE4LTdkOWQtNDdmZi04NmZmLTMwZWUyYjJlNDFhMyZzdj1ydWJpY29u, line 256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IDpL2rJiZrNY3rYqo4eIGDY6phXtx-GzYRENHMIWWlE.js line 1 > eval line 1490 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1638091666242	Marionette	INFO	Stopped listening on port 55877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638095430442	geckodriver	INFO	Listening on 127.0.0.1:62113
+1638095433723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62114" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofilekZj5jF"
+1638095434392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofilekZj5jF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62114/devtools/browser/7cb3ee99-cdc2-4391-bd05-2e3e62cd4ce8
+1638095436844	Marionette	INFO	Listening on port 62119
+1638095436940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://accounts.google.com/ServiceLogin?faa=1&rip=1&continue=https://accounts.google.com/gsi/select?client_id%3D49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com%26ux_mode%3Dpopup%26ui_mode%3Dcard%26as%3Dk0u7/Uo6GZqdyeMR1H/LwA%26channel_id%3D1b5a5f9ccdbc17304931ae905765ef75c667f7af32e6c3da68537528b6c6882e%26origin%3Dhttps://twitter.com line 1 > eval line 4116 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://accounts.google.com/ServiceLogin?faa=1&rip=1&continue=https://accounts.google.com/gsi/select?client_id%3D49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com%26ux_mode%3Dpopup%26ui_mode%3Dcard%26as%3Dk0u7/Uo6GZqdyeMR1H/LwA%26channel_id%3D1b5a5f9ccdbc17304931ae905765ef75c667f7af32e6c3da68537528b6c6882e%26origin%3Dhttps://twitter.com line 1 > eval line 3844 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?faa=1&rip=1&continue=https%3A%2F%2Faccounts.google.com%2Fgsi%2Fselect%3Fclient_id%3D49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com%26ux_mode%3Dpopup%26ui_mode%3Dcard%26as%3Dk0u7%2FUo6GZqdyeMR1H%2FLwA%26channel_id%3D1b5a5f9ccdbc17304931ae905765ef75c667f7af32e6c3da68537528b6c6882e%26origin%3Dhttps%3A%2F%2Ftwitter.com&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 5525 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638096118960	Marionette	INFO	Stopped listening on port 62119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638621338741	geckodriver	INFO	Listening on 127.0.0.1:49242
+1638621341802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49243" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofiletg4w1D"
+1638621342601	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofiletg4w1D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49243/devtools/browser/74b1eaba-ffb9-4c16-ae4d-2dee558f09f8
+1638621345094	Marionette	INFO	Listening on port 49248
+1638621345504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638621346748	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638621348444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.log: WebExtensions: proxy-monitor: started
+console.log: WebExtensions: proxy-monitor: stopped
+1638621505340	Marionette	INFO	Stopped listening on port 49248
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638621521114	geckodriver	INFO	Listening on 127.0.0.1:49625
+1638621524174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49626" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileiElHui"
+1638621524671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileiElHui\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49626/devtools/browser/952f30ec-4749-4b98-a313-ee2e7a253aa4
+1638621527261	Marionette	INFO	Listening on port 50010
+1638621527350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638621570891	Marionette	INFO	Stopped listening on port 50010
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638621709372	geckodriver	INFO	Listening on 127.0.0.1:50486
+1638621712445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50487" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofiletvx8MD"
+1638621712836	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofiletvx8MD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50487/devtools/browser/4350faf2-4c9d-428e-b66d-eb8a27141b8c
+1638621715081	Marionette	INFO	Listening on port 50492
+1638621715146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638621826944	Marionette	INFO	Stopped listening on port 50492
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638621830690	geckodriver	INFO	Listening on 127.0.0.1:50606
+1638621833760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50607" "-no-remote" "-profile" "C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileY7ekTz"
+1638621834180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Anfoshi\\AppData\\Local\\Temp\\rust_mozprofileY7ekTz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50607/devtools/browser/6ebe9861-3614-4990-a3ed-cfa7f78b5d94
+1638621836308	Marionette	INFO	Listening on port 50612
+1638621836423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+1638621923415	Marionette	INFO	Stopped listening on port 50612
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
