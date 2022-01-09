@@ -24,7 +24,6 @@ def clean(txt):
 #             else:
 #                 clean_txt=f'{clean(y[2:])}'
 
-
 #             with open(clean_file,'a') as ff :
 #                 ff.write(clean_txt+'\n')
 
@@ -39,44 +38,42 @@ def clean(txt):
 
 
 
-with open("x.csv",'r') as f:
-    data=f.readlines()
-    for i,j in enumerate(data):
-        string=j
-        cnt=1
-        lline=''
-        try:
-            lline=data[i+cnt]
-        except:
-            pass
-        while lline[0] not in "01":
-            cnt+=1
-            string+=lline
-        with open('clean_tweets_test.csv','a') as ff:
-            ff.write(string)
+
+
+### removing the empty lines and arbitrary test in the middle of nowhere
+def clean_multi_line_tweets(source="clean_tweets.csv",destination="clean_tweets_test.csv"):
+    reee=''
+    with open(source,'r') as f:
+        data=f.read()
+        reee=data.replace('\n',' ')
+        reee=reee.replace('0','\n0')
+        reee=reee.replace('1','\n1')
+    with open(destination,'w') as f:
+        f.write(reee)
+
+
+### removing dublicates 
+def remove_duplicates(source="clean_tweets.csv",destination="clean_tweets_test.csv"):
+    temp=[]
+    with open(source,'r') as f:
+        data=f.readlines()
+        for i in data:
+            if i not in temp:
+                temp.append(i)
+    with open(destination,'w') as f:
+        f.writelines(temp)
 
 
 
-
-
-
-
-
-
-
-
-# cnt=0
-# with open("clean_tweets.csv",'r') as f:
-#     for i,j in enumerate(f.readlines()):
-        
-#         if j[0]=='0':
-#             cnt+=0
-#         elif j[0]=='1':
-#             cnt+=0
-#         # elif j[0]=='\n':
-#         #     cnt+=0
-#         else:
-#             cnt+=1
-# print(cnt)
-
+### removing empty tweets
+def remove_empty_tweets(source="clean_tweets.csv",destination="clean_tweets_test.csv"):
+    temp=[]
+    with open(source,'r') as f:
+        data=f.readlines()
+        for i in data:
+            if i.strip() != '1,':
+                if i.strip() != '0,':
+                    temp.append(i)   
+    with open(destination,'w') as f:
+        f.writelines(temp)
 
